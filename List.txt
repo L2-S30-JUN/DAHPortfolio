@@ -1,0 +1,15 @@
+20242548 이서준
+영상 제작자
+sky8913kk@naver.com
+
+VIDEO EDITING
+https://www.youtube.com/watch?v=hVa2DscZLh0 : 고등래퍼2 '이로한' 일부분 키네틱 타이포그래피
+https://www.youtube.com/watch?v=Zt4ey7QUmA0 : iyowa - '1000년을 살고있어' 일부분 키네틱 타이포그래피
+https://www.youtube.com/watch?v=EUhpl9ri2Mw : 1.7만명 유튜버 '키로' 유튜브 영상 제작
+https://www.youtube.com/watch?v=yfSOworOKTY : AI스터디앱 '스터디오' 가상광고영상 제작 
+
+
+TOY PROJECT
+https://pastelette.vercel.app/ : Pastelette - 단어를 분석해 색조합을 알려주는 사이트
+https://shoichi-simulator.vercel.app/ : 게임 '이터널리턴'의 쇼이치라는 특정 캐릭터를 사이트에 구현해 연습할 수 있는 사이트
+(기능영상: https://www.youtube.com/watch?v=HXw_l20CWBU)
