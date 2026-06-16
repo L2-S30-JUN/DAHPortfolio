@@ -1,7 +1,5 @@
 import { useEffect, useRef } from "react";
 
-const COLORS = ["#ff4d2e", "#7c5cff", "#2ee6d6", "#f4f1ea"];
-
 export default function Particles() {
   const canvasRef = useRef(null);
 
@@ -43,12 +41,14 @@ export default function Particles() {
           y: hy,
           vx: 0,
           vy: 0,
-          r: Math.random() * 1.8 + 0.6,
+          // 파티클마다 크기(scale)를 다르게
+          r: Math.random() * 2.4 + 0.5,
+          // 파티클마다 투명도(opacity)를 다르게
+          alpha: Math.random() * 0.6 + 0.2,
           // 잔잔한 idle 흔들림을 위한 위상/진폭
           phase: Math.random() * Math.PI * 2,
           freq: 0.4 + Math.random() * 0.5,
           amp: 4 + Math.random() * 6,
-          color: COLORS[Math.floor(Math.random() * COLORS.length)],
         };
       });
     }
@@ -93,8 +93,8 @@ export default function Particles() {
 
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = p.color;
-        ctx.globalAlpha = 0.7;
+        ctx.fillStyle = "#ffffff";
+        ctx.globalAlpha = p.alpha;
         ctx.fill();
       }
 
@@ -109,7 +109,7 @@ export default function Particles() {
           const dist2 = dx * dx + dy * dy;
           if (dist2 < 110 * 110) {
             const alpha = (1 - Math.sqrt(dist2) / 110) * 0.18;
-            ctx.strokeStyle = `rgba(124,92,255,${alpha})`;
+            ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
             ctx.lineWidth = 0.6;
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);
