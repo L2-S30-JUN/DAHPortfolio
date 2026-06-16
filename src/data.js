@@ -65,11 +65,11 @@ export const toyProjects = [
   },
   {
     name: "Shoichi Simulator",
-    url: "https://shoichi-simulator.vercel.app/",
+    url: "https://shoichi.kr/",
     tagline: "게임 '이터널리턴'의 캐릭터 '쇼이치'를 웹에 구현한 연습 사이트",
     details: [
       "게임 '이터널리턴'의 캐릭터 중 하나인 '쇼이치'를 사이트 내에 그대로 구현했습니다.",
-      "기능 소개 영상이 3일 만에 1만 조회수를 달성할 정도로 파급력이 컸던 프로젝트이며, 현재도 많은 인기를 얻고 있습니다.",
+      "기능 소개 영상이 5일 만에 2만 조회수를 달성할 정도로 파급력이 컸던 프로젝트이며, 현재도 많은 인기를 얻고 있습니다.",
     ],
     stack: [],
     thumbnail: "/thumbnails/shoichi.jpg",
